@@ -30,18 +30,6 @@ int main()
 	queue < pair<int, int> >Q;
 	int cnt = 0; //그림의 개수
 	int mx = 0; //그림의 넓이
-	for (int i = 0; i < m; i++) {
-		for (int j = 0; j < m; j++) {
-			if (vis[i][j] && mp[i][j] == 0) continue;
-			cnt++;
-			Q.push({ i,j });
-			vis[i][j];
-			while (!Q.empty()) {
-				pair<int, int> cur = Q.front();
-				Q.pop();
-
-			}
-			
 		}
 	}
 	
